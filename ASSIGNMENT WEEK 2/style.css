@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+.content-section {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#home {
+    background-color: #f4a261;
+}
+
+#about {
+    background-color: #2a9d8f;
+}
+
+#contact {
+    background-color: #e76f51;
+}
+
+/* Text Styling */
+h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+p {
+    color: #000;
+    font-size: 18px;
+}
+
+/* Button Styling */
+button {
+    background-color: #264653;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
